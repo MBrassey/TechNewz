@@ -42,8 +42,14 @@ Express.js back end for a "Hacker News" type social network utilizing MySql or J
 > Setup
 > [<img src="img/Preview.gif">](https://technewz-mbrassey.herokuapp.com/posts)
 
-> Routes
+> User Routes
+> [<img src="img/Preview1.gif">](https://technewz-mbrassey.herokuapp.com/posts)
+
+> Post Routes
 > [<img src="img/Preview2.gif">](https://technewz-mbrassey.herokuapp.com/posts)
+
+> Comment Routes
+> [<img src="img/Preview3.gif">](https://technewz-mbrassey.herokuapp.com/posts)
 
 #### Questions
 
