@@ -10,8 +10,8 @@ Express.js back end for a "Hacker News" type social network utilizing MySql or J
 - [x] [Add security and authentication](https://github.com/MBrassey/TechNewz/issues/2)
 - [x] [Create and manipulate posts](https://github.com/MBrassey/TechNewz/issues/3)
 - [x] [Enable users to vote on posts](https://github.com/MBrassey/TechNewz/issues/4)
-- [x] [Create and manipulate comments on post data](https://github.com/MBrassey/TechNewz/issues/4)
-- [x] [Generate Readme & Deploy Heroku](https://github.com/MBrassey/TechNewz/issues/4)
+- [x] [Create and manipulate comments on post data](https://github.com/MBrassey/TechNewz/issues/5)
+- [x] [Generate Readme & Deploy Heroku](https://github.com/MBrassey/TechNewz/issues/6)
 
 #### Requirements
 
