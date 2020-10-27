@@ -1,10 +1,11 @@
 {
   "name": "TechNewz",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express.js back end for a Hacker News type social network utilizing MySql or JawsDB (Heroku).",
   "main": "server.js",
   "scripts": {
     "test": "jest --verbose",
+    "migrate": "mysql -u root -p < db/schema.sql",
     "start": "node server.js"
   },
   "repository": {
