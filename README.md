@@ -37,19 +37,19 @@ Express.js back end for a "Hacker News" type social network utilizing MySql or J
            -l          Show license info.
            -a          What is TechNewz?
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://technewz-mbrassey.herokuapp.com/posts">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://technewz-mbrassey.herokuapp.com/api/posts">webapplication</a></p></h6>
 
 > Setup
-> [<img src="img/Preview.gif">](https://technewz-mbrassey.herokuapp.com/posts)
+> [<img src="img/Preview.gif">](https://technewz-mbrassey.herokuapp.com/api/posts)
 
 > User Routes
-> [<img src="img/Preview1.gif">](https://technewz-mbrassey.herokuapp.com/posts)
+> [<img src="img/Preview1.gif">](https://technewz-mbrassey.herokuapp.com/api/posts)
 
 > Post Routes
-> [<img src="img/Preview2.gif">](https://technewz-mbrassey.herokuapp.com/posts)
+> [<img src="img/Preview2.gif">](https://technewz-mbrassey.herokuapp.com/api/posts)
 
 > Comment Routes
-> [<img src="img/Preview3.gif">](https://technewz-mbrassey.herokuapp.com/posts)
+> [<img src="img/Preview3.gif">](https://technewz-mbrassey.herokuapp.com/api/posts)
 
 #### Questions
 
