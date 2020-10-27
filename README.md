@@ -1,6 +1,6 @@
 ## TechNewz
 
-Express.js back end for a "Hacker News" type social network utilizing MySql or JawsDB (Heroku). Routes include Post, Put, Get & Del for Users, Posts and Comments. All routes are tesed in the demonstration below.
+Express.js back end for a "Hacker News" type social network utilizing MySql or JawsDB (Heroku). Including robust REST API with multiple endpoints/routes. Routes include Post, Put, Get & Del for Users, Posts and Comments. All routes are tesed in the demonstration below.
 
 ![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)
 
