@@ -14,7 +14,7 @@ router.get("/", (req, res) => {
     });
 });
 
-//Get/api/users/1
+// Get /api/users/1
 router.get("/:id", (req, res) => {
   User.findOne({
     attributes: { exclude: ["password"] },
@@ -26,7 +26,7 @@ router.get("/:id", (req, res) => {
         model: Post,
         attributes: ["id", "title", "post_url", "created_at"],
       },
-      //include the comment model here
+      // include the comment model here
       {
         model: Comment,
         attributes: ["id", "comment_text", "created_at"],
@@ -56,7 +56,7 @@ router.get("/:id", (req, res) => {
     });
 });
 
-//POST/ api/users
+// POST /api/users
 router.post("/", (req, res) => {
   //expects {username: 'Lernantino', email: 'lernantino@gmail.com', password: 'password1234'}
   User.create({
@@ -71,6 +71,7 @@ router.post("/", (req, res) => {
     });
 });
 
+// POST /api/users/login/
 router.post("/login", (req, res) => {
   //Query operation
   //expects {email: 'lernantino@gmail.com', password: 'password1234'}
@@ -109,7 +110,7 @@ router.put("/:id", (req, res) => {
   })
     .then((dbUserData) => {
       if (!dbUserData[0]) {
-        res.status(404).json({ message: "No user found with this id " });
+        res.status(404).json({ message: "No user found with this id" });
         return;
       }
       res.json(dbUserData);
@@ -120,7 +121,7 @@ router.put("/:id", (req, res) => {
     });
 });
 
-//DELETE /api/users/1
+// DELETE /api/users/1
 router.delete("/:id", (req, res) => {
   User.destroy({
     where: {
