@@ -21,7 +21,11 @@ Express.js back end for a "Hacker News" type social network utilizing MySql or J
 
 #### Installation
 
-    update DB_PASS in .env
+    Create file: .env (in root directory)
+        DB_NAME='<your_database_name>'
+        DB_USER='<your_user_name>'
+        DB_PW='<your_mysql_password>'
+
     npm i
     npm run migrate
 
