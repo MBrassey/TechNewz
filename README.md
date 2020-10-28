@@ -15,7 +15,7 @@ Express.js back end for a "Hacker News" type social network utilizing MySql or J
 
 #### Requirements
 
-    mysql or JawsDB
+    mysql or jawsdb
     node
     npm
 
