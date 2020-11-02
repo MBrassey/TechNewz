@@ -2,16 +2,37 @@ const path = require("path");
 const express = require("express");
 const routes = require("./controllers");
 const sequelize = require("./config/connection");
+const moment = require("moment");
 const arg = process.argv[2];
 const version = "1.0.0";
 const exphbs = require("express-handlebars");
-const hbs = exphbs.create({});
+const hbs = exphbs.create({
+  helpers: {
+    dateFormat: function () {
+      var date = moment(new Date());
+      return date.format("YYYY");
+    },
+  },
+});
+const session = require("express-session");
+const { format } = require("path");
+const SequelizeStore = require("connect-session-sequelize")(session.Store);
+const sess = {
+  secret: "Super secret secret",
+  cookie: {},
+  resave: false,
+  saveUninitialized: true,
+  store: new SequelizeStore({
+    db: sequelize,
+  }),
+};
 
 const app = express();
 const PORT = process.env.PORT || 3002;
 
 // Initialize Application
 init = () => {
+  app.use(session(sess));
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
   app.use(express.static(path.join(__dirname, "public")));
