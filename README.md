@@ -1,6 +1,6 @@
 ## TechNewz
 
-Full stack "Hacker News" type blog application utilizing ORM with Sequelize and adhering to the Model View Controller methodology. On the back end, Express.js and SQL database are being used to provide robust REST API with multiple endpoints/routes. Routes include POST, PUT, GET & DELETE for Users, Posts and Comments. Authentication is required for the appropriate routes and user passwords are encrypted within the database using bcrypt. All routes are tested in the demonstrations below. Test Driven Development has been practiced using Jest.
+Full stack "Hacker News" type blog application utilizing ORM with Sequelize and adhering to the Model-View-Controller paradigm. On the back end, Express.js and SQL database are being used to provide robust REST API with multiple endpoints/routes. Routes include POST, PUT, GET & DELETE for Users, Posts and Comments. Authentication is required for the appropriate routes and user passwords are encrypted within the database using bcrypt. All routes are tested in the demonstrations below. Test Driven Development has been practiced using Jest.
 
 ![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)
 
