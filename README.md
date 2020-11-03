@@ -70,6 +70,9 @@ Full stack "Hacker News" type blog application utilizing ORM with Sequelize and 
 > Comment Routes
 > [<img src="img/Preview3.gif">](https://technewz-mbrassey.herokuapp.com/api/comments)
 
+> Tests Passing
+> [<img src="img/Preview4.png">](https://technewz-mbrassey.herokuapp.com/)
+
 #### Questions
 
 Contact me at [matt@brassey.io](mailto:matt@brassey.io) with any questions or comments.
