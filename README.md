@@ -1,6 +1,6 @@
 ## TechNewz
 
-Express.js back end for a "Hacker News" type social network utilizing MySql or JawsDB (Heroku). Including robust REST API with multiple endpoints/routes. Routes include POST, PUT, GET & DELETE for Users, Posts and Comments. All routes are tested in the demonstrations below.
+Full stack "Hacker News" type blog application utilizing ORM with Sequelize and adhering to the Model View Controller methodology. On the back end, Express.js and SQL database are being used to provide robust REST API with multiple endpoints/routes. Routes include POST, PUT, GET & DELETE for Users, Posts and Comments. Authentication is required for the appropriate routes and user passwords are encrypted within the database using bcrypt. All routes are tested in the demonstrations below. Test Driven Development has been practiced using Jest.
 
 ![licensebadge](https://img.shields.io/badge/license-CC0_1.0_Universal-blue)
 
@@ -12,6 +12,19 @@ Express.js back end for a "Hacker News" type social network utilizing MySql or J
 - [x] [Enable users to vote on posts](https://github.com/MBrassey/TechNewz/issues/4)
 - [x] [Create and manipulate comments on post data](https://github.com/MBrassey/TechNewz/issues/5)
 - [x] [Generate Readme & Deploy Heroku](https://github.com/MBrassey/TechNewz/issues/6)
+- [x] [Create Homepage](https://github.com/MBrassey/TechNewz/issues/7)
+- [x] [Create Login and Signup Page](https://github.com/MBrassey/TechNewz/issues/8)
+- [x] [Create Single Post Page](https://github.com/MBrassey/TechNewz/issues/9)
+- [x] [Create Dashboard for Authenticated Users](https://github.com/MBrassey/TechNewz/issues/10)
+
+#### Table of Contents
+
+- [Requirements](#Requirements)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Screenshots](#Screenshots)
+- [Questions](#Questions)
+- [License](#License)
 
 #### Requirements
 
