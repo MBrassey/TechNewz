@@ -54,19 +54,21 @@ Full stack "Hacker News" type blog application utilizing ORM with Sequelize and 
            -l          Show license info.
            -a          What is TechNewz?
 
-<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://technewz-mbrassey.herokuapp.com/api/posts">webapplication</a></p></h6>
+<h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://technewz-mbrassey.herokuapp.com/">webapplication</a></p></h6>
+
+[<img src="img/Preview.png">](https://technewz-mbrassey.herokuapp.com/)
 
 > Setup
-> [<img src="img/Preview.gif">](https://technewz-mbrassey.herokuapp.com/api/posts)
+> [<img src="img/Preview.gif">](https://technewz-mbrassey.herokuapp.com/)
 
 > User Routes
-> [<img src="img/Preview1.gif">](https://technewz-mbrassey.herokuapp.com/api/posts)
+> [<img src="img/Preview1.gif">](https://technewz-mbrassey.herokuapp.com/api/users)
 
 > Post Routes
 > [<img src="img/Preview2.gif">](https://technewz-mbrassey.herokuapp.com/api/posts)
 
 > Comment Routes
-> [<img src="img/Preview3.gif">](https://technewz-mbrassey.herokuapp.com/api/posts)
+> [<img src="img/Preview3.gif">](https://technewz-mbrassey.herokuapp.com/api/comments)
 
 #### Questions
 

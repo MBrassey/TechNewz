@@ -4,6 +4,11 @@ module.exports = {
       date
     ).getDate()}/${new Date(date).getFullYear()}`;
   },
+  format_year: (date) => {
+    var d = new Date();
+    var n = d.getFullYear();
+    return n;
+  },
   format_plural: (word, amount) => {
     if (amount !== 1) {
       return `${word}s`;

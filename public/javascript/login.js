@@ -1,6 +1,8 @@
+//  login submission
 async function signupFormHandler(event) {
   event.preventDefault();
 
+  // Get data from the form
   const username = document.querySelector("#username-signup").value.trim();
   const email = document.querySelector("#email-signup").value.trim();
   const password = document.querySelector("#password-signup").value.trim();
@@ -15,10 +17,10 @@ async function signupFormHandler(event) {
       }),
       headers: { "Content-Type": "application/json" },
     });
-
-    // check the response status
+    // Check Response Status
     if (response.ok) {
       console.log("success");
+      document.location.replace("/dashboard");
     } else {
       alert(response.statusText);
     }
@@ -50,9 +52,8 @@ async function loginFormHandler(event) {
 }
 
 document
-  .querySelector(".login-form")
-  .addEventListener("submit", loginFormHandler);
-
-document
   .querySelector(".signup-form")
   .addEventListener("submit", signupFormHandler);
+document
+  .querySelector(".login-form")
+  .addEventListener("submit", loginFormHandler);
