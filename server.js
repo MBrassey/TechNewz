@@ -61,7 +61,7 @@ if (arg === "-h") {
   process.exit();
 } else if (arg === "-a") {
   console.log(
-    "Full stack Hacker News type blog application utilizing ORM with Sequelize and adhering to the Model View Controller methodology."
+    "Full stack Hacker News type blog application utilizing ORM with Sequelize and adhering to the Model-View-Controller paradigm."
   );
   process.exit();
 } else {

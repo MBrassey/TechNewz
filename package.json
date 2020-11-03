@@ -1,7 +1,7 @@
 {
   "name": "TechNewz",
   "version": "1.0.0",
-  "description": "Express.js back end for a Hacker News type social network utilizing MySql or JawsDB (Heroku).",
+  "description": "Full stack Hacker News type blog application utilizing ORM with Sequelize and adhering to the Model-View-Controller paradigm.",
   "main": "server.js",
   "scripts": {
     "test": "jest --verbose",
