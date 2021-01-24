@@ -48,12 +48,14 @@ input {
   padding: 0.5%;
   border-radius: 5px;
   border: 1px solid #58A6FF;
+  background-color: #161B22;
 }
 
 textarea:focus,
 input:focus {
   outline: none;
   border: 1px solid #3486eb;
+  background-color: #161B22;
 }
 
 textarea {
