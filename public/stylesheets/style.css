@@ -9,7 +9,7 @@ html {
   margin: 0;
   font-family: sans-serif;
   color: #333;
-  background-color: #252722;
+  background-color: #0D1117;
 }
 
 a {
@@ -47,7 +47,7 @@ textarea,
 input {
   padding: 0.5%;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #58A6FF;
 }
 
 textarea:focus,
@@ -79,12 +79,12 @@ form label {
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #58A6FF;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
-  background-color: #675DB5;
+  background-color: #161B22;
 }
 
 header h1 {
@@ -175,10 +175,10 @@ main {
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #58A6FF;
   display: flex;
   justify-content: center;
   padding: 1%;
   font-size: 110%;
-  background-color: #2B2D28;
+  background-color: #161B22;
 }
