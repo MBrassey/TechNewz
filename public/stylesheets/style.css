@@ -59,6 +59,8 @@ input:focus {
 textarea {
   min-width: 40%;
   min-height: 100px;
+  background-color: #161B22;
+  color: #3486EB;
 }
 
 form > div {
@@ -157,7 +159,8 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: #161B22;
+  color: #3486EB;
 }
 
 .comment .meta {
