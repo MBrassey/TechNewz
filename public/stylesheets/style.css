@@ -49,6 +49,7 @@ input {
   border-radius: 5px;
   border: 1px solid #58A6FF;
   background-color: #161B22;
+  color: #3486EB;
 }
 
 textarea:focus,
@@ -56,6 +57,7 @@ input:focus {
   outline: none;
   border: 1px solid #3486eb;
   background-color: #161B22;
+  color: #3486EB;
 }
 
 textarea {
