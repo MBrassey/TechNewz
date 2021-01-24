@@ -56,7 +56,8 @@ Full stack "Hacker News" type blog application utilizing ORM with Sequelize and 
 
 <h6><p align="right">:cyclone: Click the image(s) below to view the live <a id="Screenshots" href="https://technewz-mbrassey.herokuapp.com/">webapplication</a></p></h6>
 
-[<img src="img/Preview.png">](https://technewz-mbrassey.herokuapp.com/)
+> Post, Reactions & Comments
+> [<img src="img/Preview.png">](https://technewz-mbrassey.herokuapp.com/)
 
 > Setup
 > [<img src="img/Preview.gif">](https://technewz-mbrassey.herokuapp.com/)
